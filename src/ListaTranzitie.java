@@ -16,16 +16,17 @@ public class ListaTranzitie {
     }
     public boolean determinist(){
         for(int i=0;i<this.list.size();i++){
-            int j=1;
             Tranzitie tr= this.list.get(i);
             for(int k=i+1;k<this.list.size();k++){
                 if(tr.SpuneInceput().equals(this.list.get(k).SpuneInceput()) && tr.SpuneSimbol()== this.list.get(k).SpuneSimbol()){
-                    j++;
+                    return false;
                 }
             }
-            if(j>1)
-                return false;
         }
         return true;
+   }
+   //sa verific daca o stare are drum spre alta stare
+   public void gasesteDrum(){
+
    }
 }
