@@ -49,5 +49,8 @@ public class Automat{
             System.out.println("Automatul este nedeterminist!");
     }
 
-    
+    void cale(String q1,String q2){
+        if(lt.cale(q1, q2)== true) System.out.println("Exista drum de la "+ q1+" pana la "+ q2);
+        else System.out.println("Nu exista drum de la "+ q1+" pana la "+ q2);
+    }
 }
