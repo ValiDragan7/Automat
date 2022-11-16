@@ -48,4 +48,6 @@ public class Automat{
         else
             System.out.println("Automatul este nedeterminist!");
     }
+
+    
 }

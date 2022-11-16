@@ -25,8 +25,5 @@ public class ListaTranzitie {
         }
         return true;
    }
-   //sa verific daca o stare are drum spre alta stare
-   public void gasesteDrum(){
-
-   }
+   //sa verific daca o stare are drum spre alta stare}
 }
